@@ -17,8 +17,6 @@
     font-size: 20px;
   }
 
-.menu-icon {
-  
 }
 
 /* Untuk Smartphone */
@@ -33,6 +31,13 @@
 
   .btn {
     width: 100%;
+    display:block;
+    margin:0.2em auto;
+  }
+
+  .detail {
+    width:80px;
+    text-align: center;
   }
 
   .facebook {
@@ -47,7 +52,7 @@
     text-align: left;
   }
 
-.header2{
+.header-right{
   display:none;
 }
 
@@ -68,4 +73,18 @@
     font-size: 14px;
     line-height: 20px;
   }
+
+.heading {
+    text-align: left;
+  }
+
+.lessons {
+  margin:0 auto;
+}
+
+.lesson-icon img {
+  display:block;
+  text-align: center;
+  }
+
 }

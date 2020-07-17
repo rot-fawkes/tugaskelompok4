@@ -8,7 +8,8 @@ a {
 }
 
 .container {
-  width: 1170px;
+  max-width: 1170px;
+  width:100%
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -17,9 +18,7 @@ a {
   padding: 380px 0 400px 0;
   background-image: url(image/dkw1.jpg);
   background-size: cover;
-  color: white;
-  text-align: center;
-  margin-top:55px;
+  margin-top:80px;
 }
 
 .top-wrapper h1 {
@@ -58,7 +57,7 @@ a {
 
 .detail {
   background-color:#fa744f;
-  padding: 15px 40px;
+  padding: 15px 15px;
   cursor: pointer;
   box-shadow: 0 5px #ff5f40;
   color: #bbe1fa;
@@ -87,51 +86,54 @@ a {
   margin-right: 5px;
 }
 
-.header {
+.menu-icon {
+color: #562349;
+float: right;
+font-size: 25px;
+padding: 21px 0;
+display:none;
+}
+
+header {
+  height:90px;
   width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
-  position:fixed;
-  top:0;
-  left:40px;
-  z-index:10;
+  background-color: rgba(64, 127, 128, 0.4);
+  position :fixed;
+  top: 0;
+  z-index: 10;
 }
 
 .logo {
   width: 124px;
-  margin-top: 10px;
-  z-index:10;
+  padding:20px;
 }
 
 .header-left {
   float: left;
-  position:fixed;
+  position: fixed;
 }
 
 .header-right {
-  position:relative;
+  margin-right: -25px;
   float:right;
+
 }
 
-.header2{
+.header-right a {
+  padding:33px 20px;
+  color: #562349;
+  display: inline-block;
   transition: all 0.5s;
-  background-color: rgba(255, 255, 255, 0.3);
-  font-weight:bold;
-  display:inline-block;
-  letter-spacing: 2px;
-  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 5px;
 }
 
-.header2:hover {
+.header-right a:hover {
   background-color: #f2aaaa;
   opacity:0.6;
 }
 
-.header2 a {
-  line-height: 65px;
-  padding: 0 25px;
-  color: #442727;
-  display: inline-block;
-}
 
 .news-wrapper {
   height: 500px;
